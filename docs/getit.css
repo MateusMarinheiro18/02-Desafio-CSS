@@ -39,7 +39,7 @@ body {
   align-items: center;
   background-color: #f7d736;
   padding: 0.5rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
@@ -104,7 +104,7 @@ body {
   height: 9rem;
   width: 35rem;
   border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
   margin-top: 2rem;
 }
 
@@ -130,4 +130,106 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
+}
+
+.card-container{
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: flex;
+  padding: 3rem;
+}
+
+.card{
+  display: flex;
+  width: 15rem;
+  height: 8rem;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  border-radius: 0.4rem;
+  position: relative;
+  margin: 0.5rem;
+  padding: 0.3rem;
+  justify-content: center;
+  align-items: bottom;
+  flex-direction: flex-end;
+}
+
+.card-title{
+  font-family: 'Permanent Marker', cursive;
+  display: flex;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.card-content{
+  display: flex;
+  justify-content: center;
+  font-family: 'Permanent Marker', cursive;
+  align-items: center;
+  font-size: 1rem;
+  color:#4c4c4c;
+}
+
+/* Definindo as cores dos cards */
+.card-color-1 {
+    background-color: #ead3a7; /* Vermelho */
+}
+
+.card-color-2 {
+    background-color: #9de0f5; /* Azul */
+}
+
+.card-color-3 {
+    background-color: #ef89ba; /* Verde */
+}
+
+.card-color-4 {
+    background-color: #fae890; /* Amarelo */
+}
+
+.card-color-5 {
+  background-color: #abe9c1; /* Amarelo */
+}
+
+/* Definindo as rotações dos cards */
+.card-rotation-1 {
+    transform: rotate(1deg);
+}
+
+.card-rotation-2 {
+    transform: rotate(2deg);
+}
+
+.card-rotation-3 {
+    transform: rotate(3deg);
+}
+
+.card-rotation-4 {
+    transform: rotate(4deg);
+}
+
+.card-rotation-5 {
+    transform: rotate(5deg);
+}
+
+.card-rotation-6 {
+    transform: rotate(-1deg);
+}
+
+.card-rotation-7 {
+    transform: rotate(-2deg);
+}
+
+.card-rotation-8 {
+    transform: rotate(-3deg);
+}
+
+.card-rotation-9 {
+    transform: rotate(-4deg);
+}
+
+.card-rotation-10 {
+    transform: rotate(-5deg);
 }
